@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A basic app to deploy",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "keywords": [
     "node",
