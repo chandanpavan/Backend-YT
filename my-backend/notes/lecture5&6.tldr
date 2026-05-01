@@ -586,12 +586,168 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 2348.094554078502,
-			"y": 156.2757233007378,
-			"z": 0.3136670006856471,
+			"x": 43.85816937361744,
+			"y": 1784.698146856444,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:yf--3MUw1zGYPhyFVbIL6",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 914.1510009765625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "SOmetimes when we are storing multiple things like Subtodos in a todos"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "then we need to use an array and inside it we need to define the object "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:6sBv_wCs4QK_OSr287tu1",
+			"index": "a3k2DW6V",
+			"typeName": "shape"
+		},
+		{
+			"x": 7725.564483075307,
+			"y": 1321.6975492978268,
+			"z": 0.1240124882162113,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"x": 118.54142817806496,
+			"y": 1868.933934224208,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:cfzsPKGBteMZn8h-2bGiO",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 295.66143798828125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "i.e subtodos: ["
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\t{"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\t\t\ttype: String,"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\t\t\trequired: true,"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\t}"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t]h"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:6sBv_wCs4QK_OSr287tu1",
+			"index": "a4ZUo15l",
+			"typeName": "shape"
 		},
 		{
 			"x": 424.83204388825396,
@@ -705,6 +861,20 @@
 			"typeName": "binding"
 		},
 		{
+			"x": -698.8147499854174,
+			"y": -416.4845865404145,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:6sBv_wCs4QK_OSr287tu1",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "aerWrF4V",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
 			"x": 29.758450667741556,
 			"y": 27.93884741825036,
 			"rotation": 0,
@@ -798,9 +968,9 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:4AzYxIcP6uQaXgkgN03U0"
+				"shape:6sBv_wCs4QK_OSr287tu1"
 			],
-			"hoveredShapeId": "shape:wBCnit0gYuY0RAbqnYE21",
+			"hoveredShapeId": "shape:LHqtCT1NmK91ZgctNAs8g",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -1216,16 +1386,16 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -887.0730040333099,
-			"y": -370.73251586904894,
+			"x": 0,
+			"y": 0,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
 			"id": "shape:4AzYxIcP6uQaXgkgN03U0",
 			"type": "group",
-			"parentId": "page:page",
-			"index": "aZFtJyaV",
+			"parentId": "shape:6sBv_wCs4QK_OSr287tu1",
+			"index": "a1",
 			"props": {},
 			"typeName": "shape"
 		},
@@ -1397,6 +1567,145 @@
 			"parentId": "shape:BfSho5yHj9DFVd25Uv4zh",
 			"index": "aAuvI94V",
 			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 548.7223747278526,
+			"y": 2298.2788917533844,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:zUcfhzkp2x1CJp1x0WHjP",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1104.450439453125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Also there will cases where you need to define subSchemas inside a model, this is donw"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "when we need the schema only at that point of time and we will not be using in future,"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Yes we can create its seperate schema in another file and import it to the main file"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "but this is also a type of method "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": " "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t=> For referance Refer data_modelling/e-commerce/order.models.js"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:6sBv_wCs4QK_OSr287tu1",
+			"index": "a6QfMrtV",
+			"typeName": "shape"
+		},
+		{
+			"x": 488.4324334099865,
+			"y": 2229.3059556150674,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ojfYlZyf2mgZ_A6snre_a",
+			"type": "geo",
+			"props": {
+				"w": 1188.503352995917,
+				"h": 349.22783509988403,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:6sBv_wCs4QK_OSr287tu1",
+			"index": "a5QO62WV",
 			"typeName": "shape"
 		},
 		{
@@ -2178,8 +2487,7 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:dash": "draw"
+				"tldraw:geo": "rectangle"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -2194,7 +2502,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1539.1666259765625,
+				"w": 1369.1666259765625,
 				"h": 540
 			},
 			"insets": [
@@ -2265,6 +2573,43 @@
 			},
 			"parentId": "shape:4AzYxIcP6uQaXgkgN03U0",
 			"index": "a47db6xV",
+			"typeName": "shape"
+		},
+		{
+			"x": 16.15849275481162,
+			"y": 1740.2189868460198,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:6sE9rWut0BhYud9W9l8Bx",
+			"type": "geo",
+			"props": {
+				"w": 939.3172967698285,
+				"h": 360.6531055884243,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:6sBv_wCs4QK_OSr287tu1",
+			"index": "a2XGkdiV",
 			"typeName": "shape"
 		},
 		{
