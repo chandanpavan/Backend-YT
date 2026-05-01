@@ -35,43 +35,6 @@
 	},
 	"records": [
 		{
-			"x": -1613.0232583126137,
-			"y": 2064.2641383470027,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:5MgLMyJlAgxsfet-79oxh",
-			"type": "geo",
-			"props": {
-				"w": 514.1924502795555,
-				"h": 235.7655804169317,
-				"geo": "rectangle",
-				"dash": "draw",
-				"growY": 0,
-				"url": "",
-				"scale": 1,
-				"color": "black",
-				"labelColor": "black",
-				"fill": "none",
-				"size": "s",
-				"font": "draw",
-				"align": "middle",
-				"verticalAlign": "middle",
-				"richText": {
-					"type": "doc",
-					"content": [
-						{
-							"type": "paragraph"
-						}
-					]
-				}
-			},
-			"parentId": "page:page",
-			"index": "a88nFbMV",
-			"typeName": "shape"
-		},
-		{
 			"x": 0,
 			"y": 0,
 			"lastActivityTimestamp": 0,
@@ -158,27 +121,173 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 1692.9467943488369,
-			"y": -1772.538806369825,
-			"z": 0.8826796022641759,
+			"x": 1766.9317833079635,
+			"y": -918.6646015755016,
+			"z": 0.4240959849982046,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"editingShapeId": "shape:JuSZdZ5iBBVb9Z_jsUpv0",
+			"x": -1037.5374989507698,
+			"y": 1479.733710280349,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:o02ZAtFxbJ7t-Vk2WyWvC",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "a9NxKMdV",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:JuSZdZ5iBBVb9Z_jsUpv0"
+				"shape:xq6jCDb_EgaqZKbLkex-3"
 			],
-			"hoveredShapeId": "shape:JuSZdZ5iBBVb9Z_jsUpv0",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
-			"focusedGroupId": null,
+			"focusedGroupId": "shape:o02ZAtFxbJ7t-Vk2WyWvC",
 			"meta": {},
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
 			"typeName": "instance_page_state"
+		},
+		{
+			"x": 34.82173946600324,
+			"y": 45.97920866983304,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:xq6jCDb_EgaqZKbLkex-3",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 561.234375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Bad-Practice :"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\tThere is one practice in which they use the build method"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "to build the entire code in a dist folder and copy it to the "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "backend and upload the backend file to the deployment, "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "why is it bad is if we change anything in frontend it will"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "not upload it in the deployment rather we need to re-build "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "the frontend code and again copy it to the backend."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "So it is not good to use this method"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:o02ZAtFxbJ7t-Vk2WyWvC",
+			"index": "a2y79vHV",
+			"typeName": "shape"
 		},
 		{
 			"x": -1249.4496020544789,
@@ -230,8 +339,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -1656.62407232001,
-			"y": 951.4845685375252,
+			"x": -1566.8797305738851,
+			"y": 950.3339528470812,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -492,6 +601,43 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 0,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:LXOI128GV5ny5Qf7KlPfV",
+			"type": "geo",
+			"props": {
+				"w": 619.4169259283101,
+				"h": 309.9850377768994,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "s",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:o02ZAtFxbJ7t-Vk2WyWvC",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
 			"x": -1645.303817931854,
 			"y": 1063.7824198757826,
 			"rotation": 0,
@@ -575,18 +721,18 @@
 				"tldraw:geo": "rectangle",
 				"tldraw:size": "s",
 				"tldraw:dash": "draw",
-				"tldraw:color": "black"
+				"tldraw:color": "light-red"
 			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "grab",
 				"rotation": 0
 			},
 			"isFocusMode": false,
 			"exportBackground": true,
 			"isDebugMode": false,
-			"isToolLocked": false,
+			"isToolLocked": true,
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
@@ -618,60 +764,6 @@
 			"id": "instance:instance",
 			"currentPageId": "page:page",
 			"typeName": "instance"
-		},
-		{
-			"x": -1588.9488377125554,
-			"y": 2091.038080374641,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:JuSZdZ5iBBVb9Z_jsUpv0",
-			"type": "text",
-			"props": {
-				"color": "black",
-				"size": "s",
-				"w": 126.6640625,
-				"font": "draw",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1,
-				"richText": {
-					"type": "doc",
-					"attrs": {
-						"dir": "auto"
-					},
-					"content": [
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "Bad Practice :"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							}
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							}
-						}
-					]
-				}
-			},
-			"parentId": "page:page",
-			"index": "a9wpAE7V",
-			"typeName": "shape"
 		},
 		{
 			"name": "",
