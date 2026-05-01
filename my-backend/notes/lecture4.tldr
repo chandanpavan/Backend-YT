@@ -65,7 +65,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "ew-resize",
+				"type": "default",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -110,7 +110,7 @@
 			"selectedShapeIds": [
 				"shape:nVJ0sz47h44Q1QKvfiJd9"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:nVJ0sz47h44Q1QKvfiJd9",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -120,9 +120,9 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 0,
-			"y": 0,
-			"z": 1,
+			"x": 0.8786786926675063,
+			"y": 85.96211229672744,
+			"z": 0.9948202825096848,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -136,8 +136,8 @@
 			"typeName": "user"
 		},
 		{
-			"x": 82.90364074707031,
-			"y": 93.05989074707031,
+			"x": 139.34835215599094,
+			"y": 96.48257227336552,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
