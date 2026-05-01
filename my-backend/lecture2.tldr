@@ -139,6 +139,114 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 115.51659028372163,
+			"y": 467.84445332227847,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:MMV6euDlIHiGHeSvWHsgW",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 294.7109375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "import express"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "create app "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "create a port "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "(better to do this in a env file)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "get a file path like \"/\" , \"/login\""
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "listen to the port "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aFLTuuzl",
+			"typeName": "shape"
+		},
+		{
 			"x": 53.4766469149082,
 			"y": -163.55288675579544,
 			"rotation": 0,
@@ -150,7 +258,7 @@
 			"props": {
 				"color": "black",
 				"size": "s",
-				"w": 398.8757584054181,
+				"w": 494.8515870680987,
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
@@ -169,7 +277,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "How to create a Node application"
+									"text": "How to create a Node application just for fun :"
 								}
 							]
 						},
@@ -217,8 +325,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 30.02160833334127,
-			"y": -54.247863108256254,
+			"x": 248.86391017756628,
+			"y": 494.5591556054904,
 			"z": 1.0829953166777821,
 			"meta": {},
 			"id": "camera:page:page",
@@ -309,12 +417,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:gdmpd4BUX94X7y1_Xo1sh",
+			"editingShapeId": "shape:meql1fEpCO_nWlX_Sevnq",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:gdmpd4BUX94X7y1_Xo1sh"
+				"shape:meql1fEpCO_nWlX_Sevnq"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:meql1fEpCO_nWlX_Sevnq",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -741,7 +849,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 571.6666259765625,
+				"w": 1369.1666259765625,
 				"h": 515
 			},
 			"insets": [
@@ -771,6 +879,50 @@
 			"typeName": "instance"
 		},
 		{
+			"x": 187.87689880706532,
+			"y": 372.5352934215645,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:jvz8Fs4J6tiO2ehqXinoR",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 0.17732959338155752,
+					"y": 68.66022638157432
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aEcRYC4V",
+			"typeName": "shape"
+		},
+		{
 			"name": "",
 			"color": "#39B178",
 			"imageUrl": "",
@@ -790,7 +942,7 @@
 			"props": {
 				"color": "black",
 				"size": "s",
-				"w": 308.51300048828125,
+				"w": 283.8125,
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
@@ -835,11 +987,17 @@
 							"type": "paragraph",
 							"attrs": {
 								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
 							},
 							"content": [
 								{
 									"type": "text",
-									"text": "\t\t// creates a package-lock.json "
+									"text": "// creates a package-lock.json "
 								}
 							]
 						},
@@ -851,7 +1009,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "\t\t\t\tand installs Node Modules"
+									"text": "\t\tand installs Node Modules"
 								}
 							]
 						}
