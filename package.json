@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/chandanpavan/Backend-YT/issues"
   },
-  "homepage": "https://github.com/chandanpavan/Backend-YT#readme"
+  "homepage": "https://github.com/chandanpavan/Backend-YT#readme",
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  }
 }
