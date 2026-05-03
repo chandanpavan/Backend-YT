@@ -1,0 +1,1786 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 5,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 26,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.user": 1,
+			"com.tldraw.asset.image": 6,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 4,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 4,
+			"com.tldraw.shape.geo": 11,
+			"com.tldraw.shape.note": 12,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 1,
+			"com.tldraw.shape.arrow": 8,
+			"com.tldraw.shape.highlight": 3,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 4,
+			"com.tldraw.binding.arrow": 1
+		}
+	},
+	"records": [
+		{
+			"x": 0,
+			"y": 0,
+			"lastActivityTimestamp": 0,
+			"meta": {},
+			"id": "pointer:pointer",
+			"typeName": "pointer"
+		},
+		{
+			"meta": {},
+			"id": "binding:MMymgdXV5uvdfSsPvSYPq",
+			"type": "arrow",
+			"fromId": "shape:WgaH5xaLgUs2cHbDnE56D",
+			"toId": "shape:4dzw6Vs3aXcd1mzm6TdKP",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.022811692016675957,
+					"y": 0.7580001268589942
+				},
+				"snap": "none",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 486.9346948403341,
+			"y": 325.2863923826376,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:RFCTahrol81XNpWOfo63W",
+			"type": "group",
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "a2oNaTPV",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": -216.70990244722782,
+			"y": 44.480447348512826,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "aLnFu3TV",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 166.74974557068344,
+			"y": -806.3277090474523,
+			"z": 0.7068727622931907,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 999.0277734536154,
+			"y": 491.6470558496211,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ClaAYHeum43nsidV8ivj5",
+			"type": "text",
+			"props": {
+				"color": "light-red",
+				"size": "m",
+				"w": 387.6015625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Creating a seperate file in the "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "db folder and importing it in "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "the main file"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "aA5wmr5V",
+			"typeName": "shape"
+		},
+		{
+			"x": 368.2459894708944,
+			"y": 1118.9192075474605,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:JIYvgIkzO5x8rwR-TipBz",
+			"type": "group",
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "aHvMzwll",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 55.480839383343465,
+			"y": 46.042109322786246,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:icQwbsjtHFHDY5ooAJwsv",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "l",
+				"w": 1101.6119384765625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Note : The dotenv config need not to be written in every "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\tfile as an import if you get access through the main"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\tfile i.e index.js all the other file will automatically"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\tget the access, No need to write in the DB file too"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:JIYvgIkzO5x8rwR-TipBz",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:j-lhZwS00yredvpSZPo4E",
+			"type": "geo",
+			"props": {
+				"w": 748.1485752900476,
+				"h": 392.0464011968711,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "red",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:aJHg6k1tVfFUz2o49oUce",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 468.67844304224775,
+			"y": 834.906732191551,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Z11d1OOG65QzMi8d1GI9W",
+			"type": "text",
+			"props": {
+				"color": "light-violet",
+				"size": "m",
+				"w": 435.6744689941406,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "write a async- await function for "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "connecting the MongoDB though "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "DB_URL and wrap it in a try catch "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "block to handle errors, also"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "listen the app in the try blockh"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "(common sense)"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "aF4j8mXV",
+			"typeName": "shape"
+		},
+		{
+			"x": 425.8930230874044,
+			"y": 477.8807899804805,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:HvwsCclM_iAXJRbd6J45M",
+			"type": "geo",
+			"props": {
+				"w": 396.26298522949224,
+				"h": 121.65362548828125,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "a7rkPF9V",
+			"typeName": "shape"
+		},
+		{
+			"x": 853.9398828286154,
+			"y": 246.12297838117274,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Hk1hi-4etXp0FoFcBAOdo",
+			"type": "arrow",
+			"props": {
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -201.60156250000006,
+					"y": 71.41600799560547
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "a35o2Uhl",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:EtYaxAPIvEhaMdIai7eNe"
+			],
+			"hoveredShapeId": "shape:icQwbsjtHFHDY5ooAJwsv",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 867.1560083168966,
+			"y": 244.5344392576376,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:y4-eUZ980HSdSGGnWq0_H",
+			"type": "arrow",
+			"props": {
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 296.4388427734375,
+					"y": 72.30142211914062
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "a4VokfHV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:nKBH0I2DDnSCPSvbwYTty",
+			"type": "arrow",
+			"fromId": "shape:y4-eUZ980HSdSGGnWq0_H",
+			"toId": "shape:QAxY2-k56Rhv4KNPoitDq",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4999999999999999,
+					"y": 0
+				},
+				"snap": "edge-point",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 1525.834232757486,
+			"y": 959.5343146833727,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:aJHg6k1tVfFUz2o49oUce",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "aPYCATOV",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 0.810546875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_PKCaTvpYrMrvJKp5SSrO",
+			"type": "geo",
+			"props": {
+				"w": 300.88867187500006,
+				"h": 87.2265625,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:RFCTahrol81XNpWOfo63W",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 41.779993570563875,
+			"y": 33.78196882763791,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:MdFIbSC-aggZVAv3BkMyQ",
+			"type": "text",
+			"props": {
+				"color": "light-blue",
+				"size": "m",
+				"w": 697.6796875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Common Errors:"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "orderedList",
+							"attrs": {
+								"dir": "auto",
+								"start": 1,
+								"type": null
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "IP-whitelisting"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\tCheck in the MongoDB Network-Access if your"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\tI-P is listed, if not list it or just give universal-IP"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t2. Wrong user-id and pass:"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\tThe userid and pass which is given in DB_URL "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\tmight be wrong, for better soln create a new user"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\tin the user-access of MonoDB"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:aJHg6k1tVfFUz2o49oUce",
+			"index": "a28RRDIV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:_FirRdKISbKIhaNyxd5zd",
+			"type": "arrow",
+			"fromId": "shape:1-hSTuh5ceUtCgnrgUAxu",
+			"toId": "shape:YLt2qaFCKIRIfpzbe_biw",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4819430394687144,
+					"y": 0.2946739076448595
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:HVvdc4ZKNLkK5tGHwWOFv",
+			"type": "arrow",
+			"fromId": "shape:Hk1hi-4etXp0FoFcBAOdo",
+			"toId": "shape:YLt2qaFCKIRIfpzbe_biw",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:SMECLbSd_LbPSFIy9El11",
+			"type": "arrow",
+			"fromId": "shape:WgaH5xaLgUs2cHbDnE56D",
+			"toId": "shape:xc2CeguaXl8pSMHMOVn0M",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.9467720116718076,
+					"y": 0.47729101491702
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": -10.723756825875398,
+			"y": 0.03580439047482287,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ZuxYCGphF1vZOKq5Y7d08",
+			"type": "geo",
+			"props": {
+				"w": 1227.2873969595169,
+				"h": 289.5526168133683,
+				"geo": "cloud",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "yellow",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "l",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:JIYvgIkzO5x8rwR-TipBz",
+			"index": "a2UDV3ll",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:oTq_mi_STWo98y1jWMMY0",
+			"type": "arrow",
+			"fromId": "shape:y4-eUZ980HSdSGGnWq0_H",
+			"toId": "shape:YLt2qaFCKIRIfpzbe_biw",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 1
+				},
+				"snap": "edge-point",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 1130.8883979972034,
+			"y": 24.342430114746094,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3YMYl0fkZn7nezPVbwriV",
+			"type": "group",
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "a1",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 977.1430078286154,
+			"y": 479.5604774804805,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rOpAavXJYAluEIWQhWcPI",
+			"type": "geo",
+			"props": {
+				"w": 429.98040771484375,
+				"h": 119.86651611328125,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "a8clht2V",
+			"typeName": "shape"
+		},
+		{
+			"x": 1014.8445913107663,
+			"y": 677.3589844920419,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:H4Ab7GO0GMp9CbYYuzgd7",
+			"type": "text",
+			"props": {
+				"color": "light-violet",
+				"size": "m",
+				"w": 524.828125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "syntax:"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t1. create a file called index.js in db flde"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t2. write the same aync-await logic and"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\tstore it in a variable."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t3. export the function"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t4. import it in the main file"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t5. create the dotenv config and "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\tcall the function ."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "aI3gvaTV",
+			"typeName": "shape"
+		},
+		{
+			"x": 1052.8200708168965,
+			"y": 352.0832301363572,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Uf4Lco1U6A0MRhoF21jaN",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "m",
+				"w": 158.3046875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Method - 02"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "a6FVkyXV",
+			"typeName": "shape"
+		},
+		{
+			"x": 404.8057885903341,
+			"y": 651.3736114950873,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:MYzULcdJVXtvVO-T3zJ1b",
+			"type": "geo",
+			"props": {
+				"w": 499.29028999937736,
+				"h": 396.63261398842224,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "aBhJVjyV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:khSHvbOUdOdgtSljCDme1",
+			"type": "arrow",
+			"fromId": "shape:Hk1hi-4etXp0FoFcBAOdo",
+			"toId": "shape:_PKCaTvpYrMrvJKp5SSrO",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5515345574632435,
+					"y": 0
+				},
+				"snap": "edge",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 501.02539062500006,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:QAxY2-k56Rhv4KNPoitDq",
+			"type": "geo",
+			"props": {
+				"w": 300.88867187500006,
+				"h": 87.2265625,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:RFCTahrol81XNpWOfo63W",
+			"index": "a2tPHUyl",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 777.6683925117782,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:xc2CeguaXl8pSMHMOVn0M",
+			"type": "geo",
+			"props": {
+				"w": 263.9921875,
+				"h": 61.70051956176758,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 29.700519561767578,
+				"url": "",
+				"scale": 1,
+				"color": "light-violet",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "for getting the access of .env file"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "aDA5lZBV",
+			"typeName": "shape"
+		},
+		{
+			"x": 456.4919763344747,
+			"y": 506.3573524804805,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ynZI-LqEguS2VkhibyeVq",
+			"type": "text",
+			"props": {
+				"color": "light-red",
+				"size": "m",
+				"w": 328.734375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Directly writing DB logic in"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "the main file"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "a9iOUDDG",
+			"typeName": "shape"
+		},
+		{
+			"x": -451.0220642089844,
+			"y": -24.342430114746094,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:N2Hr7NOzhEXVGryGlJWOJ",
+			"type": "geo",
+			"props": {
+				"w": 367.36328125,
+				"h": 74.63868713378906,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "yellow",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "MongoDB connection"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:3YMYl0fkZn7nezPVbwriV",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 1000.3991959321146,
+			"y": 650.321048092911,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3zjmeTsjpEgKBj4xEBTAp",
+			"type": "geo",
+			"props": {
+				"w": 555.593804772303,
+				"h": 398.84007585241784,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "s",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "aGge8QlV",
+			"typeName": "shape"
+		},
+		{
+			"x": -446.92043394512575,
+			"y": 125.35811042785645,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:YLt2qaFCKIRIfpzbe_biw",
+			"type": "geo",
+			"props": {
+				"w": 368.9921875,
+				"h": 73.466796875,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 17.934242248535156,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Store the DB_URL from the MongoBD in a .env file"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:3YMYl0fkZn7nezPVbwriV",
+			"index": "a2MK2KvV",
+			"typeName": "shape"
+		},
+		{
+			"x": -277.3749678053066,
+			"y": 49.20568954797828,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:1-hSTuh5ceUtCgnrgUAxu",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 5.59893798828125,
+					"y": 75.6217498779297
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:3YMYl0fkZn7nezPVbwriV",
+			"index": "a3Vq0ouV",
+			"typeName": "shape"
+		},
+		{
+			"x": 426.63652014053025,
+			"y": 822.6684249963592,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:WgaH5xaLgUs2cHbDnE56D",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "light-violet",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -163.78980899759836,
+					"y": -4.648795386210509
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "aE1DlLoV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:color": "light-blue",
+				"tldraw:arrowKind": "arc",
+				"tldraw:size": "m",
+				"tldraw:dash": "draw"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1369.1666259765625,
+				"h": 745.8333129882812
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.2000000476837158,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"cameraState": "idle",
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"x": 417.608436592243,
+			"y": 675.3321503381422,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:4dzw6Vs3aXcd1mzm6TdKP",
+			"type": "text",
+			"props": {
+				"color": "light-violet",
+				"size": "m",
+				"w": 395.765625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "syntax:"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "orderedList",
+							"attrs": {
+								"dir": "auto",
+								"start": 1,
+								"type": null
+							},
+							"content": [
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "import express"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "create an app from express"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": "config of dotenv"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"attrs": {
+										"dir": "auto"
+									},
+									"content": [
+										{
+											"type": "paragraph",
+											"attrs": {
+												"dir": "auto"
+											},
+											"content": [
+												{
+													"type": "text",
+													"text": " "
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "aCv6nB1V",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:uTunokYepdgV9dfXpS4CE",
+			"type": "arrow",
+			"fromId": "shape:1-hSTuh5ceUtCgnrgUAxu",
+			"toId": "shape:N2Hr7NOzhEXVGryGlJWOJ",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"name": "",
+			"color": "#39B178",
+			"imageUrl": "",
+			"meta": {},
+			"id": "user:LFQlVuDHa_v-gCDAUOLS4",
+			"typeName": "user"
+		},
+		{
+			"x": 538.604616715334,
+			"y": 355.0097132906541,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:YYUOx9aEWW4n1Kryq2vp-",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "m",
+				"w": 160.1145782470703,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Method  - 01"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EtYaxAPIvEhaMdIai7eNe",
+			"index": "a57fzmoG",
+			"typeName": "shape"
+		}
+	]
+}
