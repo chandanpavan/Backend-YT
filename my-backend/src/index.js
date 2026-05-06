@@ -3,8 +3,8 @@ import connectDB from "./db/index.js"
 import app from "./app.js"
 
 dotenv.config({
-  // global instance
-  path: "./my-backend/.env",
+    // global instance
+    path: "./my-backend/.env",
 })
 
 /*
@@ -12,18 +12,18 @@ dotenv.config({
   so we can use then-catch on it,
 */
 connectDB()
-  .then(() => {
-    const server = app.listen(process.env.PORT || 8080, () => {
-      console.log(`Server is running at port :${process.env.PORT}`)
-    })
+    .then(() => {
+        const server = app.listen(process.env.PORT || 8080, () => {
+            console.log(`Server is running at port :${process.env.PORT}`)
+        })
 
-    server.on("error", (error) => {
-      console.log("Error starting the server", error)
+        server.on("error", (error) => {
+            console.log("Error starting the server", error)
+        })
     })
-  })
-  .catch((err) => {
-    console.error("Error connecting DB:", err)
-  })
+    .catch((err) => {
+        console.error("Error connecting DB:", err)
+    })
 
 /*
 import express from "express"

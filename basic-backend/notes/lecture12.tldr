@@ -1079,7 +1079,7 @@
 											"content": [
 												{
 													"type": "text",
-													"text": "X-XSS-"
+													"text": "X-XSS-Protection"
 												}
 											]
 										}
