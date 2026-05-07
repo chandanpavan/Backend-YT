@@ -6,7 +6,7 @@ class ApiErrors extends Error {
         stack = ""
     ) {
         // Error's built-in constructor only needs the main error message.
-        super(message)
+        super(message) // doubt
 
         // Extra fields that our API can send back in a consistent format.
         this.statusCode = statusCode
@@ -24,3 +24,5 @@ class ApiErrors extends Error {
 }
 
 export { ApiErrors }
+// if we haven't wrote this ApiErrors how would we write the errors
+// we would need to send a response as res.status.json{} and a 400 error inside it
