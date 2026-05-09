@@ -43,9 +43,9 @@
 			"typeName": "pointer"
 		},
 		{
-			"x": 5600.291883383739,
-			"y": 449.90803907730117,
-			"z": 0.0982796022176605,
+			"x": 5709.872441553283,
+			"y": 460.1524543147069,
+			"z": 0.09675746063152828,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -69,7 +69,7 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [],
-			"hoveredShapeId": "shape:Tvw9L48J0badBTN3CZPvM",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -134,7 +134,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 1369.1666259765625,
-				"h": 450.83331298828125
+				"h": 445.83331298828125
 			},
 			"insets": [
 				false,

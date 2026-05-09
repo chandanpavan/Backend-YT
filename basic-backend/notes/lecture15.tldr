@@ -43,32 +43,83 @@
 			"typeName": "pointer"
 		},
 		{
-			"x": 435.44921875,
-			"y": 134.814453125,
+			"x": 267.56350628469517,
+			"y": 0,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
 			"id": "shape:uh5deYdKo8NZfot4S6ZM-",
 			"type": "group",
-			"parentId": "page:page",
-			"index": "a2GWrqzG",
+			"parentId": "shape:mRnuRko7EDvVef53QUy3G",
+			"index": "a1",
 			"props": {},
 			"typeName": "shape"
 		},
 		{
-			"x": 0,
-			"y": 0,
-			"z": 1,
+			"x": 167.88571246530483,
+			"y": 134.814453125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:mRnuRko7EDvVef53QUy3G",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "a6YiPQ8V",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 504.9183713029511,
+			"y": 234.96029965449532,
+			"z": 0.31381059609,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
+			"x": 518.9710240196805,
+			"y": 148.21940903852737,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:zSslaHCHPOOnbvfQQ0dc9",
+			"type": "geo",
+			"props": {
+				"w": 530.1101823430797,
+				"h": 290.07947972433396,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:mRnuRko7EDvVef53QUy3G",
+			"index": "a4njp2IV",
+			"typeName": "shape"
+		},
+		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:uh5deYdKo8NZfot4S6ZM-"
+				"shape:mRnuRko7EDvVef53QUy3G"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -122,6 +173,178 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 535.2677067295106,
+			"y": 164.37167282646726,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:UZXNd2f6gDp6tcePQKuK-",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 484.8671875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "How to add a shortcut like to "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "shorten the "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "link",
+											"attrs": {
+												"href": "http://localhost:8000/",
+												"target": "_blank",
+												"rel": "noopener noreferrer nofollow",
+												"class": null
+											}
+										}
+									],
+									"text": "http://localhost:8000/"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Create a new environment(intially)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "add the key e.g server and give it the "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "key value as that link and in the url "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "section instead of the link you can use"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "{{server}}/users/register"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:mRnuRko7EDvVef53QUy3G",
+			"index": "a5DVcQZV",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 151.91568854995836,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:yU-SYjnm3-Vbutzhw6Occ",
+			"type": "geo",
+			"props": {
+				"w": 432.5764764647099,
+				"h": 197.9558915921854,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "shape:mRnuRko7EDvVef53QUy3G",
+			"index": "a261PuoV",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "page:page",
 			"name": "Page 1",
@@ -154,8 +377,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1293.333251953125,
-				"h": 745.8333129882812
+				"w": 741.6666259765625,
+				"h": 445.83331298828125
 			},
 			"insets": [
 				false,
@@ -182,6 +405,96 @@
 			"id": "instance:instance",
 			"currentPageId": "page:page",
 			"typeName": "instance"
+		},
+		{
+			"x": 18.79889091837066,
+			"y": 172.65255956492842,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2nWZ7uA1VfvbNQw8-L7dP",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 393.7994689941406,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "When you are starting with"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "a project create a Collection"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "in the postman and main"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "the same folder structure as of"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "models like user."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:mRnuRko7EDvVef53QUy3G",
+			"index": "a3PGdG8V",
+			"typeName": "shape"
 		},
 		{
 			"x": 0,
