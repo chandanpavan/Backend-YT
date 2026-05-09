@@ -37,7 +37,10 @@ const registerUser = asyncHandler(async (req, res) => {
         throw new ApiErrors(409, "User with email or username already exists")
     }
 
-    const avatarLocalPath = req.files?.avatar[0]?.path
+    //console.log(req.files)
+    console.log()
+
+    const avatarLocalPath = req.files?.avatar?.[0]?.path
     // know abt question mark and avatar
     /* 
         question mark check if the req.files exists and let it get to avatar so if it doesnt
@@ -47,7 +50,7 @@ const registerUser = asyncHandler(async (req, res) => {
         we are telling it to get the first item of the array
     */
     // console.log(avatarLocalPath);
-    const coverImageLocalPath = req.files?.coverImage[0]?.path
+    const coverImageLocalPath = req.files?.coverImage?.[0]?.path
 
     if (!avatarLocalPath) {
         throw new ApiErrors(400, "Avatar file is required")
@@ -57,7 +60,7 @@ const registerUser = asyncHandler(async (req, res) => {
     const coverImage = await uploadOnCloudinary(coverImageLocalPath)
 
     if (!avatar) {
-        throw new ApiErrors(400, "Avatar file is required")
+        throw new ApiErrors(400, "Cloudinary error")
     }
 
     const user = await User.create({

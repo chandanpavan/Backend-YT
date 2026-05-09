@@ -1,11 +1,11 @@
-import dotenv from "dotenv"
-import connectDB from "./db/index.js"
-import app from "./app.js"
-
 dotenv.config({
     // global instance
     path: "./my-backend/.env",
 })
+
+import dotenv from "dotenv"
+import connectDB from "./db/index.js"
+const { default: app } = await import("./app.js") // very important
 
 /*
   The connectDB() function is  asynchronous so it returns a promise
@@ -24,7 +24,6 @@ connectDB()
     .catch((err) => {
         console.error("Error connecting DB:", err)
     })
-
 /*
 import express from "express"
 const app = express()
