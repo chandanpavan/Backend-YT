@@ -5,6 +5,11 @@ import { uploadOnCloudinary } from "../utils/Cloudinary.js"
 import { ApiResponse } from "../utils/ApiResponse.js"
 import jwt from "jsonwebtoken"
 
+const options = {
+    httpOnly: true,
+    secure: true,
+}
+
 const generateAccessAndRefreshTokens = async (userId) => {
     try {
         const user = await User.findById(userId)
@@ -13,10 +18,7 @@ const generateAccessAndRefreshTokens = async (userId) => {
 
         user.refreshToken = refreshToken
         await user.save({ validateBeforeSave: false })
-        const options = {
-            httpOnly: true,
-            secure: true,
-        }
+
         return { accessToken, refreshToken }
     } catch (error) {
         throw new ApiErrors(
@@ -24,11 +26,6 @@ const generateAccessAndRefreshTokens = async (userId) => {
             "Something went wrong while generating refresh and access token"
         )
     }
-}
-
-const options = {
-    httpOnly: true,
-    secure: true,
 }
 
 const registerUser = asyncHandler(async (req, res) => {
@@ -323,6 +320,7 @@ const updateUserAvatar = asyncHandler(async (req, res) => {
         .status(200)
         .json(new ApiResponse(200, user, "Avatar updated successfully"))
 })
+
 const updateUserCoverImage = asyncHandler(async (req, res) => {
     const coverImageLocalPath = req.file?.path
 
